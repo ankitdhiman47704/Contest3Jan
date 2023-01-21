@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="signupPage" class="">
+        <h2>Signup Page</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input id="0" type="text" name="name">
+            <span id="nameValid"></span>
+            <br>
+            <label for="email">Email :</label>
+            <input id="1" type="email" name="email">
+            <span id="emailValid"></span>
+            <br>
+            <label for="password">Password :</label>
+            <input id="2" type="password" name="password">
+            <span id="newPassValid"></span>
+            <br>
+            <label for="confirm-password">Confirm Password :</label>
+            <input id="3" type="password" name="confirm-password">
+            <span id="confirmPassValid"></span><br>
+            <input id="signupBtn" type="button" value="Signup">
+        </form>        
+        <p id="sucessfullyAdded"></p>
+    </div>
+    <div id="loginPage" class="hide">
+        <h3>Login Page</h3>
+        <form id="loginPageForm">
+            <label for="email">Email :</label>
+            <input id="loginEmail" type="email" name="email"><br>
+            <label for="password">Password :</label>
+            <input id="loginPass" type="password" name="password"><br>
+            <input id="loginBtn" type="button" value="Login">
+            <p id="loginSuccess"></p>
+        </form>
+    </div>
+    <div id="chatGPT" class="hide">
+        <h3>Your favourite and dream project chatGpt (but with more features)</h3>
+        <input type="text"  id="questGpt">
+        <input type="button" id="search" value="Search">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
